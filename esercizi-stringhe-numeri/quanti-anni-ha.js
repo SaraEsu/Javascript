@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let year=prompt (`In che anno siamo? `)
+let born=prompt(`In che anno sei nat*?` );
+let age=year-born;
+let num=100-age;
+
+
+alert(`Età: ${age} `);
+alert(`Anni mancanti ai 100: ${num}`);

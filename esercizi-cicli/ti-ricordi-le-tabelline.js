@@ -8,3 +8,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+let num=prompt(`Inserisci un numero `);
+let tab=[];
+
+for(let i=0;i<=10;i++){
+  tab[i]=(num*i);
+}
+
+alert(`${tab}`);

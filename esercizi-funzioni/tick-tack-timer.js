@@ -14,3 +14,20 @@
             
   http://www.imparareaprogrammare.it
 */
+
+
+/* let input_number=prompt(`Inserisci un numero `);
+let i=input_number-1;
+while(i>=0){
+  alert(i);
+  i--;
+}
+ */
+
+let input_number=prompt(`Inserisci un numero `);
+
+for(let i=input_number-1;i>=0;i-- ){
+  alert(i);
+}
+
+

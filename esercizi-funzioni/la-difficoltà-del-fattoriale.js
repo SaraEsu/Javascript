@@ -12,3 +12,17 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+let input_number=prompt(`Inserisci un numero `);
+let factorial=1;
+
+for(let i=1;i<=input_number;i++){
+
+  factorial=i*factorial;
+}
+
+
+alert(factorial); 
+
+

@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+/* let second=prompt(`Quanti secondi ci sono? `);
+let minute=second*60;
+let hour=minute*60;
+
+
+
+
+alert(`Sono ${hour} ore, ${minute} minuti e ${second} secondi`); */

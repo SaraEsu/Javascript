@@ -22,3 +22,33 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+
+let input=prompt(`Che giorno è oggi? Inserisci il numero`);
+
+switch(input){
+  case '1':
+    alert('lunedì');
+    break;
+    case '2':
+    alert('martedì');
+    break;
+    case '3':
+    alert('mercoledì');
+    break;
+    case '4':
+    alert('giovedì');
+    break;
+    case '5':
+    alert('venerdì');
+    break;
+    case '6':
+    alert('sabato');
+    break;
+    case '7':
+    alert('domenica');
+    break;
+    default:
+      alert('Errore! Giorno della settimana non valido!');
+}
